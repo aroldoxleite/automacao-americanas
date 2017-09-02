@@ -14,11 +14,7 @@ Scenario('Informar dados cadastrais', (I) => {
     I.fillField('cpf', '06031881683');
     I.executeScript(function() {
         document.getElementsByName('birthday')[0].value = '1984-12-27';
-        document.getElementsByName('birthday').onchange = function() {
-            console.log(this.value);
-        }
     });
-    I.pressKey('Enter');
     I.fillField('tel', '3432321010');
     I.fillField('cel', '34999998888');
     I.fillField('cep', '38410580');
@@ -30,11 +26,5 @@ Scenario('Informar dados cadastrais', (I) => {
     I.fillField('number', '3333333');
     I.fillField('complement', 'Número 2380');
     I.fillField('reference', 'Casa Azul');
-
-
-
-
-
-
     pause();
 });
