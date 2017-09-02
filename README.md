@@ -13,7 +13,7 @@
 ---
 
 ## Execução
-Clone o projeto:
+Após clone do projeto:
 ```shell
 cd automacao-americanas
 ```
