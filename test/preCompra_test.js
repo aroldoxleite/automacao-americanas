@@ -1,7 +1,7 @@
 var dados  = require("../data/dadosEntrada.json");
 var Chance = require("chance");
 
-Feature('Compra', {retries: 0});
+Feature('Compra', {retries: 1});
 
 Before((I) => {
     var geradorDeDados = new Chance();
