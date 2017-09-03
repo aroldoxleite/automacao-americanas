@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/aroldoxleite/automacao-americanas.svg?branch=master)](https://travis-ci.org/aroldoxleite/automacao-americanas)
 # automacao-americanas
 
 ## Objetivo
