@@ -1,0 +1,44 @@
+{
+  "produto": {
+    "codigo": "132254862",
+    "titulo": "Iphone Se Space Gray 32gb-bra",
+    "nome": "iPhone SE 32GB Cinza Espacial IOS 4G Câmera 12MP - Apple",
+    "valorUnitario":"1.799,99",
+    "valorTotal":"1.799,99",
+    "valorTotalItemSeguroFrete":"2.283,18",
+    "parcelas": "10x de R$ 179,99",
+    "seguro": "1 ano de Seguro Roubo e Furto por: 10x de R$ 46,62 s/ juros",
+    "garantia01": "+ 12 meses de Garantia Estendida por: 10x de R$ 23,40 s/ juros",
+    "garantia02": "+ 24 meses de Garantia Estendida por: 10x de R$ 34,20 s/ juros",
+    "totalServicos": "808,20",
+    "frete": {
+      "escolhido": "FAST",
+      "rapido": {
+        "valor": "16,99",
+        "dias": "5"
+      },
+      "economico": {
+        "valor": "6,99",
+        "dias": "7"
+      }
+    }
+  },
+  "usuario": {
+    "nome": "João da Silva",
+    "cpf": "VALOR GERADO DINAMICAMENTE",
+    "email": "VALOR GERADO DINAMICAMENTE",
+    "senha": "123456",
+    "sexo": "Masculino",
+    "dataNascimento": "1984-12-27",
+    "tel": "3433333231",
+    "cel": "34988776655",
+    "cep": "38410580",
+    "endereco": "Rua Passo Fundo",
+    "bairro": "Granada",
+    "cidade": "Uberlândia",
+    "estado": "MG",
+    "numero": "1000",
+    "complemento": "Ap. 202",
+    "referencia": "Prédio azul"
+  }
+}

@@ -1,6 +1,4 @@
 {
-  "tests": "test/*_test.js",
-  "timeout": 20000,
   "output": "./output",
   "helpers": {
     "WebDriverIO": {
@@ -9,9 +7,19 @@
     }
   },
   "include": {
-    "I": "./steps_file.js"
+    "I": "./steps_file.js",
+    "menuSuperiorFragment": "./fragments/menuSuperior.js",
+    "cadastroPage": "./pages/cadastro.js",
+    "minhaContaPage": "./pages/minhaConta.js",
+    "produtoPage": "./pages/produto.js",
+    "seguroGarantiaPage": "./pages/seguroGarantia.js",
+    "cestaPage": "./pages/cesta.js"
   },
-  "bootstrap": false,
   "mocha": {},
+  "bootstrap": false,
+  "teardown": null,
+  "hooks": [],
+  "tests": "test/*_test.js",
+  "timeout": 20000,
   "name": "automacao-americanas"
 }
