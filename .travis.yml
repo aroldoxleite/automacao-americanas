@@ -1,10 +1,14 @@
+sudo: required
+
 services:
   - docker
 
 language: bash
 
-before_install:
-  - docker info
+ 
+before_script:
+  - docker run -d --net=host selenium/standalone-chrome
 
 script:
+  - docker ps
   - echo "teste CI"
