@@ -3,8 +3,16 @@ sudo: required
 services:
   - docker
 
-language: bash
+addons:
+  chrome: stable
+  
+cache:
+  directories:
+    - "node_modules"
 
+language: node_js
+node_js:
+  - "7"
  
 before_script:
   - npm install
@@ -12,4 +20,5 @@ before_script:
 
 script:
   - docker ps
-  - echo "teste CI"
+  - ./node_modules/.bin/codeceptjs run --steps
+  
