@@ -9,11 +9,11 @@ module.exports = {
     I = require('../steps_file.js')();
   },
 
-    verificarDadosCompra(){
+    verificarDadosCompra(produto){
         I.waitForText('minha cesta',5);
-        I.see(dados.produto.titulo);
-        I.see("R$ " + dados.produto.valorUnitario, ".basket-item-price.hidden-xs.hidden-sm");
-        I.see("R$ " + dados.produto.valorTotal, "#basket-item-total-main");
+        I.see(produto.titulo);
+        I.see("R$ " + produto.valorUnitario, ".basket-item-price.hidden-xs.hidden-sm");
+        I.see("R$ " + produto.valorTotal, "#basket-item-total-main");
     },
 
     selecionarFrete(cep, escolhido){

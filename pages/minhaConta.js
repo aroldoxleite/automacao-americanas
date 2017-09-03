@@ -10,7 +10,10 @@ module.exports = {
   },
 
     verificaDadosCadastrados(usuario){
-        entrarMinhaConta();
+        I.click('.usr-nick');
+        I.waitForText('Minha conta',5);
+        I.click('Minha conta');
+        I.seeCurrentUrlEquals('https://minhaconta.americanas.com.br/#/account/home');
         I.waitForText('você não tem pedidos recentes.', 10,'#mainUiView');
         I.see(usuario.nome, '.adress-name p:nth-child(1)');
         I.see(usuario.endereco, '.adress-name p:nth-child(2)');
@@ -20,12 +23,5 @@ module.exports = {
         I.see(usuario.bairro, '.adress-name p:nth-child(3)');
         I.scrollTo('.btn.btn-default.btn-md');
         I.see('ver todos os pedidos', '.btn.btn-default.btn-md');
-    },
-
-    entrarMinhaConta(){
-        I.click('.usr-nick');
-        I.waitForText('Minha conta',5);
-        I.click('Minha conta');
-        I.seeCurrentUrlEquals('https://minhaconta.americanas.com.br/#/account/home');
     }
 }

@@ -19,7 +19,7 @@ module.exports = {
       I.see(produto.valorUnitario, '.sales-price');
   },
 
-    comprar(produto){
+    comprar(){
         I.click('Comprar');
     }
 

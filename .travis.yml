@@ -1,0 +1,10 @@
+services:
+  - docker
+
+language: bash
+
+before_install:
+  - docker info
+
+script:
+  - echo "teste CI"
