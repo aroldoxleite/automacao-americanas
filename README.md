@@ -31,4 +31,4 @@ Execute o teste:
 npm test
 ```
 Vídeo com demonstração da instalação e execução:
-[![Watch the video](https://img.youtube.com/vi/iIIMsNs1ANk/0.jpg)](https://youtu.be/iIIMsNs1ANk)
+
