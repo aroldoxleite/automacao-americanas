@@ -12,7 +12,7 @@ Before((I) => {
 
 Scenario('Realizar o processo até antes da conclusão de uma compra (Pré Compra)', (I, menuSuperiorFragment, cadastroPage, minhaContaPage, produtoPage, seguroGarantiaPage, cestaPage) => {
 
-    I.say("Cadastrar usuário que realizá a compra");
+    I.say("Cadastrar usuário que realizará a compra");
     menuSuperiorFragment.solicitaNovoCadastro();
     cadastroPage.realizaCadastro(dados.usuario);
     menuSuperiorFragment.verificaUsuarioLogado(dados.usuario.nome.split(' ')[0]);
