@@ -8,7 +8,7 @@
     "pretest": "rm -rf output/*",
     "start": "./node_modules/.bin/selenium-standalone start > /dev/null 2>&1 &",
     "stop": "pkill -f selenium-standalone",
-    "preinstall": "./node_modules/.bin/selenium-standalone install"
+    "postinstall": "./node_modules/.bin/selenium-standalone install"
   },
   "author": "",
   "license": "ISC",
