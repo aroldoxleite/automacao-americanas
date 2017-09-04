@@ -4,7 +4,9 @@ services:
   - docker
 
 addons:
-  chrome: stable
+  chrome: stable  
+  artifacts:
+    working_dir: output
   
 cache:
   directories:
