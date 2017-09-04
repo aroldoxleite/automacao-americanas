@@ -6,7 +6,8 @@ services:
 addons:
   chrome: stable  
   artifacts:
-    working_dir: output
+    paths:
+    - output/
   
 cache:
   directories:
