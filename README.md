@@ -1,14 +1,11 @@
 [![Build Status](https://travis-ci.org/aroldoxleite/automacao-americanas.svg?branch=master)](https://travis-ci.org/aroldoxleite/automacao-americanas)
 # automacao-americanas
 
-## Objetivo
-
----
 
 ## Ferramentas Utilizadas
 
 - [NodeJS](http://nodejs.org/)
-- [CodeceptJS](http://codecept.io/)
+- [CodeceptJS + WebdriveIO](http://codecept.io/)
 - [Selenium](http://www.seleniumhq.org/)
 
 ---
