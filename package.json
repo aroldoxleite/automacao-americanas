@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/codeceptjs run --steps"
-    "pretest": "rm -rf output/*"
+    "test": "./node_modules/.bin/codeceptjs run --steps",
+    "pretest": "rm -rf output/*",
     "postinstall": "./node_modules/.bin/selenium-standalone start > /dev/null 2>&1 &"
   },
   "author": "",
