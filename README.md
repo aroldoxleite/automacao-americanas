@@ -9,6 +9,8 @@
 - [Selenium](http://www.seleniumhq.org/)
 
 ---
+## Pré-requisitos
+  Google Chrome(versão 60 ou superior)
 
 ## Execução
 Após clone do projeto:
