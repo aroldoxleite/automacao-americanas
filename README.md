@@ -22,13 +22,14 @@ cd automacao-americanas
 Instale as dependências:
 ```shell
 npm install
+```
 
-[sudo] npm install -g selenium-standalone
-[sudo] selenium-standalone install
-selenium-standalone start
+Inicie o selenium:
+```shell
+npm start
 ```
 
 Execute o teste:
 ```shell
-./node_modules/.bin/codeceptjs run --steps
+npm test
 ```
