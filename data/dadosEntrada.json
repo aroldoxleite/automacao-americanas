@@ -1,16 +1,16 @@
 {
   "produto": {
-    "codigo": "132123900",
-    "titulo": "Iphone Se Silver 64gb-bra",
-    "nome": "Iphone Se 64GB Prata IOS 4G/Wi-Fi 12MP - Apple",
-    "valorUnitario":"2.299,99",
-    "valorTotal":"2.299,99",
-    "valorTotalItemSeguroFrete":"2.912,68",
-    "parcelas": "10x de R$ 179,99",
-    "seguro": "1 ano de Seguro Roubo e Furto por: 10x de R$ 59,57 s/ juros",
-    "garantia01": "+ 12 meses de Garantia Estendida por: 10x de R$ 29,90 s/ juros",
-    "garantia02": "+ 24 meses de Garantia Estendida por: 10x de R$ 43,70 s/ juros",
-    "totalServicos": "808,20",
+    "codigo": "132248788",
+    "titulo": "Iphone 7 Dourado 256gb-bra",
+    "nome": "iPhone 7 256GB Dourado Desbloqueado IOS 10 Wi-fi + 4G Câmera 12MP - Apple",
+    "valorUnitario":"4.299,99",
+    "valorTotal":"4.299,99",
+    "valorTotalItemSeguroFrete":"5.430,68",
+    "parcelas": "10x de R$ 429,99",
+    "seguro": "1 ano de Seguro Roubo e Furto por: 10x de R$ 111,37 s/ juros",
+    "garantia01": "+ 12 meses de Garantia Estendida por: 10x de R$ 55,90 s/ juros",
+    "garantia02": "+ 24 meses de Garantia Estendida por: 10x de R$ 81,70 s/ juros",
+    "totalServicos": "1.113,70",
     "frete": {
       "escolhido": "FAST",
       "rapido": {
