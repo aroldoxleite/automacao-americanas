@@ -15,7 +15,7 @@ module.exports = {
         I.click('Minha conta');
         I.seeCurrentUrlEquals('https://minhaconta.americanas.com.br/#/account/home');
         I.waitForText('você não tem pedidos recentes.', 10,'#mainUiView');
-        I.see(usuario.nome, '.adress-name p:nth-child(1)');
+        I.waitForText(usuario.nome, 10, '.adress-name p:nth-child(1)');
         I.see(usuario.endereco, '.adress-name p:nth-child(2)');
         I.see(usuario.numero, '.adress-name p:nth-child(2)');
         I.see(usuario.complemento, '.adress-name p:nth-child(2)');

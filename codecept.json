@@ -3,7 +3,8 @@
   "helpers": {
     "WebDriverIO": {
       "url": "http://localhost",
-      "browser": "chrome"
+      "browser": "chrome",
+      "windowSize": "1440x900"
     }
   },
   "include": {

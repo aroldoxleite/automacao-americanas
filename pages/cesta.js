@@ -11,7 +11,7 @@ module.exports = {
 
     verificarDadosCompra(produto){
         I.waitForText('minha cesta',5);
-        I.see(produto.titulo);
+        I.waitForText(produto.titulo,5);
         I.see("R$ " + produto.valorUnitario, ".basket-item-price.hidden-xs.hidden-sm");
         I.see("R$ " + produto.valorTotal, "#basket-item-total-main");
     },
