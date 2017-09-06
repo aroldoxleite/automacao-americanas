@@ -21,7 +21,6 @@ module.exports = {
         I.see(usuario.complemento, '.adress-name p:nth-child(2)');
         I.see(usuario.cep.substring(0,5) + '-'+ usuario.cep.substring(5,8), '.adress-name p:nth-child(3)');
         I.see(usuario.bairro, '.adress-name p:nth-child(3)');
-        I.scrollTo('.btn.btn-default.btn-md');
         I.see('ver todos os pedidos', '.btn.btn-default.btn-md');
     }
 }
